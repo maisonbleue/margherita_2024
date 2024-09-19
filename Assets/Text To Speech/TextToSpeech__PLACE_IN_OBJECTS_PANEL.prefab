@@ -74,6 +74,7 @@
   Enabled: true
   ScriptAsset: !<reference> 90805e9e-8f33-4558-9841-e8cf01204467
   ScriptInputsDefault:
+    openAIScript: true
     tts: true
     autoStyleSelector: true
     voiceName: true
@@ -83,6 +84,7 @@
     {}
   ScriptInputs:
     "":
+      openAIScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       tts: !<reference.TextToSpeechModule> ce392237-660c-4970-90de-8099479edf28
       audio: !<reference.AudioComponent> e24af98c-beba-4ab8-ae3e-ea8cb24833cb
       autoStyleSelector: true

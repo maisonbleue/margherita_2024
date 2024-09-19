@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 340
+    size: 362
     values:
       - Echopark.hdr
       - JSTTS_Declration.ts.ts
@@ -333,6 +333,28 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Utils/views/MeshView.ts
       - SpectaclesInteractionKit/Utils/views/View.ts
       - SpectaclesInteractionKit/package.native
+      - Speech Recognition/.hidden/Info Card Background.ss_graph
+      - Speech Recognition/.hidden/SpritePreset.lsmat.ss_graph
+      - Speech Recognition/SoeechRecognition__PLACE_IN_SCENE/Speech Recognition Resources/Fonts
+      - Speech Recognition/SoeechRecognition__PLACE_IN_SCENE/Speech Recognition Resources/Fonts/Urbanist-VariableFont_wght.ttf
+      - "Speech Recognition/SoeechRecognition__PLACE_IN_SCENE/Speech Recognition Resources/Info Card [DELETE_ME]"
+      - "Speech Recognition/SoeechRecognition__PLACE_IN_SCENE/Speech Recognition Resources/Info Card [DELETE_ME]/Fonts"
+      - "Speech Recognition/SoeechRecognition__PLACE_IN_SCENE/Speech Recognition Resources/Info Card [DELETE_ME]/Fonts/Lato-Bold.ttf"
+      - "Speech Recognition/SoeechRecognition__PLACE_IN_SCENE/Speech Recognition Resources/Info Card [DELETE_ME]/Fonts/Lato-Regular.ttf"
+      - "Speech Recognition/SoeechRecognition__PLACE_IN_SCENE/Speech Recognition Resources/Info Card [DELETE_ME]/Materials"
+      - "Speech Recognition/SoeechRecognition__PLACE_IN_SCENE/Speech Recognition Resources/Info Card [DELETE_ME]/Materials/Info Card Background.mat"
+      - "Speech Recognition/SoeechRecognition__PLACE_IN_SCENE/Speech Recognition Resources/Info Card [DELETE_ME]/Materials/SpritePreset.lsmat.mat"
+      - "Speech Recognition/SoeechRecognition__PLACE_IN_SCENE/Speech Recognition Resources/Info Card [DELETE_ME]/Textures"
+      - "Speech Recognition/SoeechRecognition__PLACE_IN_SCENE/Speech Recognition Resources/Info Card [DELETE_ME]/Textures/BaseTex.png"
+      - "Speech Recognition/SoeechRecognition__PLACE_IN_SCENE/Speech Recognition Resources/Info Card [DELETE_ME]/Textures/Icon.png"
+      - Speech Recognition/SoeechRecognition__PLACE_IN_SCENE/Speech Recognition Resources/Scripts/Behavior.js
+      - Speech Recognition/SoeechRecognition__PLACE_IN_SCENE/Speech Recognition Resources/Scripts/CommandHandler.js
+      - Speech Recognition/SoeechRecognition__PLACE_IN_SCENE/Speech Recognition Resources/Scripts/Keyword.js
+      - Speech Recognition/SoeechRecognition__PLACE_IN_SCENE/Speech Recognition Resources/Scripts/SpeechContext.js
+      - Speech Recognition/SoeechRecognition__PLACE_IN_SCENE/Speech Recognition Resources/Scripts/SpeechRecogition.js
+      - Speech Recognition/SoeechRecognition__PLACE_IN_SCENE/Speech Recognition Resources/Scripts/VoiceMLLanguage.js
+      - Speech Recognition/SoeechRecognition__PLACE_IN_SCENE/Speech Recognition Resources/VoiceML Module.voiceMLModule
+      - Speech Recognition/SpeechRecognition__PLACE_IN_SCENE.prefab
       - Text To Speech
       - Text To Speech Module.textToSpeechModule
       - Text To Speech/Text To Speech Resources/Scripts/TTSController.js

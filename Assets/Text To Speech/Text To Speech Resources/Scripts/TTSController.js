@@ -8,6 +8,7 @@
 
 // ---- GLOBAL API USAGE ----
 // Call global.getTTSResults("Provide any text input") to any provided text in English with TextToSpeech module
+//@input Component.ScriptComponent openAIScript
 
 // @input Asset.TextToSpeechModule tts {"label": "Text To Speech"}
 // @input Component.AudioComponent audio
@@ -40,7 +41,6 @@ var onTTSCompleteHandler = function(audioTrackAsset, wordInfos, phonemeInfos, vo
        ", startTime: " + wordInfos[i].startTime.toString()+
        ", endTime: " + wordInfos[i].endTime.toString());
     }
-
 };
 
 var onTTSErrorHandler = function(error,description) {
@@ -51,6 +51,12 @@ function playTTSAudio(audioTrackAsset, audioComponent) {
     
     audioComponent.audioTrack = audioTrackAsset;
     audioComponent.play(1);
+    audioComponent.setOnFinish(function() {
+        print("=====================")
+        print("Audio playback finished");
+        print("=====================")
+        script.openAIScript.resetTextToSpeech();
+    });
     
 }
 

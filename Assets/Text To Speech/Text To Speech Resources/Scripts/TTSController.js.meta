@@ -26,6 +26,7 @@
   ScriptInputsHidden:
     audio: false
     autoStyleSelector: false
+    openAIScript: false
     previewTTS: false
     previewText: false
     tts: false
@@ -45,6 +46,7 @@
       voicePace: !<float> 1.000000
       previewTTS: false
       previewText: ""
+      openAIScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}

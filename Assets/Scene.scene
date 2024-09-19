@@ -6,6 +6,8 @@
     - !<own> 0005641c-028d-459a-0000-000000014b4d
     - !<own> 05ba69cf-6a1c-49f6-9023-565a2a2ad501
     - !<own> ba665da2-1491-41c3-8187-9f68708baa6f
+    - !<own> acd3266a-b2b7-4e9a-a119-d4432ad565c6
+    - !<own> 9c629181-95b7-4ae2-851e-a93c25b1e487
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       []
@@ -2685,6 +2687,7 @@
       openAIApiKey: ""
       rms: !<reference.RemoteServiceModule> 8f8db4a7-5d9f-4359-99fb-5611fd2c3b49
       refScripts: !<reference.ScriptComponent> ca2926e7-ad16-4356-860f-f1e1bad67115
+      vMLLScript: !<reference.ScriptComponent> 8719ca53-55fe-4a87-ba9d-8267ebf0e75d
   ScriptTypes:
     "":
       {}
@@ -4898,6 +4901,22 @@
     []
   Components:
     []
+- !<ScriptComponent/7e917d9a-6e2f-42ae-a5e0-7bd759647125>
+  PrefabRemaps:
+    []
+  Name: VoiceMLLanguage
+  Enabled: true
+  ScriptAsset: !<reference> 8f8b0b69-49ac-4e2e-8c96-2ef9a0b72a0d
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/7ee6fe0d-3efc-4e6a-9da9-4ec46ebafcf9>
   PrefabRemaps:
     []
@@ -5276,6 +5295,67 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<ScriptComponent/8719ca53-55fe-4a87-ba9d-8267ebf0e75d>
+  PrefabRemaps:
+    []
+  Name: SpeechRecogition
+  Enabled: true
+  ScriptAsset: !<reference> db957d73-1840-4b3a-b02b-8e5d108c990c
+  ScriptInputsDefault:
+    transcripitonText: true
+    useSpeechContext: true
+    useKeyword: true
+    useCommand: true
+    useSYSTEM_VOICE_COMMAND: true
+    onListeningEnabledGlobalBehaviors: true
+    onListeningDisabledGlobalBehaviors: true
+    onListeningTriggeredGlobalBehaviors: true
+    onErrorTriggeredGlobalBehaviors: true
+    onFinalTranscriptionTriggeredGlobalBehaviors: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      openAIScript: !<reference.ScriptComponent> 35e4d1cf-aace-4ae1-99b1-71675aab0b57
+      vmlModule: !<reference.VoiceMLModule> 2f117859-6163-41e0-b6c7-c37a454badb9
+      voiceMLLanguage: LANGUAGE_ENGLISH
+      transcriptionType: TRANSCRIPTION
+      transcripitonText: false
+      screenTextTranscription: !<reference.Text> 08ae2abe-eb77-4170-a6bd-2119d73f7b33
+      useSpeechContext: false
+      speechContextsObject: !<reference.SceneObject> 7f9ad654-a9f2-41b1-bc92-afcab7f06a75
+      useKeyword: false
+      keywordsParentObject: !<reference.SceneObject> 0eda8ec4-2782-457f-9236-e4ed41b72719
+      keywordText: true
+      screenTextKeywordResponses: !<reference.Text> 77b41dc8-d804-4869-b803-d30e551d6396
+      useCommand: false
+      commandHandler: !<reference.ScriptComponent> ce3cc0d0-5cfd-4776-8315-e6aa50914874
+      commandText: true
+      screenTextCommandResponses: !<reference.Text> 6b61b3a3-df3e-421d-ada2-293a78ad5241
+      useSYSTEM_VOICE_COMMAND: false
+      SYSTEM_VOICE_COMMANDText: true
+      screenTextSYSTEM_VOICE_COMMANDResponses: !<reference.Text> a43608e2-af60-42ee-8c73-2b2a60ae28de
+      editBehaviors: true
+      debug: true
+      onListeningEnabledGlobalBehaviors: !<reference.ScriptComponent[]>
+        []
+      onListeningDisabledGlobalBehaviors: !<reference.ScriptComponent[]>
+        []
+      onListeningTriggeredGlobalBehaviors: !<reference.ScriptComponent[]>
+        []
+      onErrorTriggeredGlobalBehaviors: !<reference.ScriptComponent[]>
+        []
+      onFinalTranscriptionTriggeredGlobalBehaviors: !<reference.ScriptComponent[]>
+        []
+      onKeywordTriggeredGlobalBehaviors: !<reference.ScriptComponent[]>
+        - !<reference> 49816eb5-b687-48f2-b17d-ad2ceff9e942
+      onCommandTriggeredGlobalBehaviors: !<reference.ScriptComponent[]>
+        - !<reference> 364054f7-018b-43f6-8dab-b38ddbe3b191
+      onVoiceSystemCommandTriggeredGlobalBehaviors: !<reference.ScriptComponent[]>
+        - !<reference> dbf234a4-a407-4812-b443-126a8e4de3e7
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/871ccc73-472f-4c51-9206-8817c645a5a5>
   PrefabRemaps:
     []
@@ -6092,6 +6172,21 @@
   ScriptTypes:
     "":
       {}
+- !<SceneObject/9c629181-95b7-4ae2-851e-a93c25b1e487>
+  PrefabRemaps:
+    []
+  Name: Audio Listener
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fd4fa021-7c96-4388-9e5e-a9a17aab87ff
 - !<ColliderComponent/9c6fcc90-84a6-42ee-b200-d3d0bd572f8d>
   PrefabRemaps:
     []
@@ -6681,6 +6776,77 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<SceneObject/acd3266a-b2b7-4e9a-a119-d4432ad565c6>
+  PrefabRemaps:
+    - 01d0c411-2f9b-411d-800c-4a2a247549a6: 144085bb-faf5-453a-8461-9cf12e72accd
+    - 04572d16-59f7-4f2e-a3c1-099004f7e447: 242fa5e7-d060-4673-a361-1611627d090a
+    - 05024652-c171-4005-a924-6b9eb594f6c1: e76d72b8-1292-4db5-87b0-753106baed79
+    - 08ae2abe-eb77-4170-a6bd-2119d73f7b33: c0e124d3-67a9-4c26-8f7f-7dacf3e34e2c
+    - 0aef9fc3-c3f9-4936-aec9-35cbca2704a9: 7fdae171-239a-4fe7-82d7-1f6e332cfe30
+    - 0eda8ec4-2782-457f-9236-e4ed41b72719: a073f007-a1de-4e00-930e-1db05eae8bbc
+    - 16f99bc5-927f-4761-93cd-9bd5e76fdef1: 8778a6e4-9b36-4895-9e96-fc51a7899e9a
+    - 195ef6ba-5446-4927-994c-d130ce479646: 6691b2e1-79fa-4769-a131-5567f60c325d
+    - 1de2ff8c-ab0b-4e87-8e4e-8cf04350799c: 2f099f42-b54a-4bdd-8905-f8ba2c7bcdb9
+    - 2653208c-cbfb-41a0-b286-86f496e7824f: 7e5596f3-bdca-4713-8c64-978e3981aed8
+    - 3206a2d9-369b-4b07-a99d-cc0583263e18: cdd47621-6e19-4e98-8d3c-40b1006fe98d
+    - 32905bc3-7f8c-4ea2-b3cb-e599bd6951c2: d12265eb-9576-46b1-a42d-583bcdd55374
+    - 364054f7-018b-43f6-8dab-b38ddbe3b191: 6b7d58c0-d528-46ab-b790-c90c9b9d501b
+    - 452b8c2a-46ef-4f5d-8416-3fc72fee6af5: 40a1ee1a-5660-4d05-bb95-780f19bdae33
+    - 4576ad6a-5fc3-43ff-a050-b19082834186: 067133a6-a669-40e3-88e5-7e9ea3018d1f
+    - 49816eb5-b687-48f2-b17d-ad2ceff9e942: 1fc7d1ee-f770-4183-ac0e-269591677c50
+    - 5062c8d7-4dd6-4fb0-a74f-db6b85d37be5: e9021c05-31ee-4d3b-8006-2fd2ee877e8a
+    - 6a7d7d7c-3856-476c-80be-4bcc240596cb: 5fe89460-5136-4e70-8fb4-71d2a0fc2797
+    - 6b61b3a3-df3e-421d-ada2-293a78ad5241: e6c327d1-72ac-4be4-a9cb-d9502a496d52
+    - 6b6ea483-0513-44e7-bd18-da4e515b6c63: d8513f7e-8ec3-4585-bcdc-18ca8e2d9fdd
+    - 72d8e5d1-93a7-4a06-aa84-5cc4a3e7f2f2: b26cfba3-ad7c-41bf-8cf7-3bc6decfc04e
+    - 77b41dc8-d804-4869-b803-d30e551d6396: 3ecb492d-8de2-437e-81d3-91de46dc42bd
+    - 797e5f03-eb91-4823-9dcd-8d1f1cb23b81: 80052ba1-d937-4c5a-be78-98c1e829ac58
+    - 7e917d9a-6e2f-42ae-a5e0-7bd759647125: 457ba990-1cae-4e13-9ad9-09777030b22b
+    - 7f9ad654-a9f2-41b1-bc92-afcab7f06a75: 138ea430-58fb-4a97-b1d0-1cf10bdd0d2e
+    - 82dc1510-93f8-47ff-bc51-66d0c3af673b: e1c9632a-9673-4f3d-9afb-14b7a3334d20
+    - 8719ca53-55fe-4a87-ba9d-8267ebf0e75d: 75284d3d-78f5-4790-b902-505f212cb23c
+    - 8a22daae-45a9-4189-8da7-c861402d1a82: bfcd3095-df76-458f-8337-67fc2a3a14a4
+    - 8b9599da-ba5c-4fec-baa1-20b6bd8f7e10: d8b7635d-0797-4edd-a404-7181e1f3fcd3
+    - 8ea0a718-d00e-4de9-a514-5d5f50bd4897: 19e7b241-8ce7-4ae6-b0cf-c0fe2c2d1f81
+    - 92c0f997-ec82-4c05-bdb8-cfc1ec8597fa: 3f244680-7579-4b52-a55d-a10fd29c5a03
+    - 93b332b7-445d-4c6a-8e88-b137b8f15d3b: 3fb60ca2-5d34-4f56-abec-978edbc1fc13
+    - 9d9f169d-db69-4eae-8069-cb3ff5346d2a: 56c2d2d1-af46-48b9-afaa-7c4f04910a17
+    - a43608e2-af60-42ee-8c73-2b2a60ae28de: 863c8076-caec-440e-bf88-b750517b14a8
+    - acd3266a-b2b7-4e9a-a119-d4432ad565c6: ad244b74-504e-404f-906e-5a0249b2918e
+    - addfbba3-f57f-433e-81a4-1703381727ae: 3c9157dc-ec35-4bc9-a94e-551bb414fd4d
+    - b01ed3b5-c3f2-4fff-99be-d1c4b7f43843: 132e1fd3-7720-428a-88c5-69e1ed603bab
+    - b857adf9-a6b2-48e2-a246-b9f7429aeb7a: 16c90c76-ac1e-4795-841f-6217d1b18749
+    - bb303079-6a99-4fc6-bc52-71d12f7f5a5f: 329d3cad-d5c7-49e6-9332-0cd473ceece3
+    - bc2eb8ec-4364-478c-96d0-ed719f393078: db76d4c7-02ea-4fcf-8852-74e3ad123671
+    - bdce836d-2638-41b5-91d0-e6533780ce0a: f3132b89-8940-403d-a2e8-5b3a52b9103c
+    - be36a704-15e5-45f3-83b4-3f79415ea388: 1ebdf562-ab50-4e9a-8d56-c4507bd49619
+    - bf4d4b46-6770-4615-8794-3adf479251ca: 9455d026-7817-45c9-a6c0-40df0e142b48
+    - bfcb7839-13fe-4f0a-a7d6-f2d9c13ccc63: 4ce69b7e-f601-4282-9d27-bccccc171889
+    - c668a07f-d446-4a08-b0fe-3ac52dea47a5: 7a43c5e7-9982-4138-905e-fea539cf7112
+    - ca1e3380-8718-409f-a4ca-9c8ffca20d8e: 97526d9b-4b1e-4912-91ca-d904cc6606b3
+    - cafe3dc9-e02a-4a44-a9e1-7047995049ef: b7851ca9-a1a2-4d59-8325-8a5ccd90641e
+    - ce3cc0d0-5cfd-4776-8315-e6aa50914874: 488ee886-c66e-4233-bf94-a21cc9609686
+    - d08e2e4a-6670-4325-a222-472583228d9e: 0e873d99-540e-4902-99bd-f062e73cf035
+    - d9d49624-0059-4b47-953d-883f88730d14: 3fa306eb-92a4-4adc-8ed6-a5a1730e1e5c
+    - da769f9b-915d-4524-bf5f-854c27669328: 74e26a0b-3e35-4ba7-877d-69cf2afaf0bd
+    - dbf234a4-a407-4812-b443-126a8e4de3e7: a8e4f5eb-8311-4f5e-9bd9-4771301f1038
+    - ed588d99-a417-4089-8b6c-b21704cc2fd5: 06cc92b4-a12d-43af-b8ae-492a72ddd42c
+    - ef33b674-0f69-4bb5-b0fe-916e0d560313: f8120e92-89ef-4f3a-8a9c-0b66b6f50291
+    - f107fa7f-bbb0-4e80-b572-034c46491e77: 8b09b763-947a-4414-b100-0f7d5ec62f14
+    - f5fae83b-e54a-4730-b2ec-9d92168af0b3: 53fe57f8-2a03-4272-acf0-ef0628a9be0c
+  Name: SpeechRecognition__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7e917d9a-6e2f-42ae-a5e0-7bd759647125
+    - !<own> 8719ca53-55fe-4a87-ba9d-8267ebf0e75d
 - !<SceneObject/acebf94a-538c-4884-b35f-5a3f131ec3fb>
   PrefabRemaps:
     []
@@ -7497,6 +7663,7 @@
     {}
   ScriptInputs:
     "":
+      openAIScript: !<reference.ScriptComponent> 35e4d1cf-aace-4ae1-99b1-71675aab0b57
       tts: !<reference.TextToSpeechModule> ce392237-660c-4970-90de-8099479edf28
       audio: !<reference.AudioComponent> 4dbea1f9-5e17-48c4-a141-d494519d6ae1
       autoStyleSelector: true
@@ -9003,6 +9170,11 @@
     - !<own> 871ccc73-472f-4c51-9206-8817c645a5a5
   Components:
     []
+- !<AudioListenerComponent/fd4fa021-7c96-4388-9e5e-a9a17aab87ff>
+  PrefabRemaps:
+    []
+  Name: Audio Listener
+  Enabled: true
 - !<SceneObject/fe0b52b0-890a-44b1-aa31-7d491edf3a17>
   PrefabRemaps:
     []

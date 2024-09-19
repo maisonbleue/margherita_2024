@@ -27,12 +27,14 @@
     openAIApiKey: false
     refScripts: false
     rms: false
+    vMLLScript: false
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
     - openAIApiKey: OpenAI
       rms: !<reference.RemoteServiceModule> 00000000-0000-0000-0000-000000000000
       refScripts: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      vMLLScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
@@ -40,3 +42,4 @@
     - // @input string openAIApiKey
     - // @input Asset.RemoteServiceModule rms
     - // @input Component.ScriptComponent refScripts
+    - // @input Component.ScriptComponent vMLLScript

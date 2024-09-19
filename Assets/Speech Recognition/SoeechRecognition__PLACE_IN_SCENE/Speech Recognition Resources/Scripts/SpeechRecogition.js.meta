@@ -1,0 +1,98 @@
+- !<AssetImportMetadata/74a566ac-587c-4b61-95f2-3c6af6eda2fd>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> db957d73-1840-4b3a-b02b-8e5d108c990c
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> db957d73-1840-4b3a-b02b-8e5d108c990c
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 1885aa28-a1f3-4ff5-9152-0104228e9838
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/076201ce-dc19-4a71-b16e-721d1139a1a4>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/1885aa28-a1f3-4ff5-9152-0104228e9838>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 000618e6-2f10-439f-0000-000000028403
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    SYSTEM_VOICE_COMMANDText: false
+    commandHandler: false
+    commandText: false
+    debug: false
+    editBehaviors: false
+    keywordText: false
+    keywordsParentObject: false
+    onCommandTriggeredGlobalBehaviors: false
+    onErrorTriggeredGlobalBehaviors: false
+    onFinalTranscriptionTriggeredGlobalBehaviors: false
+    onKeywordTriggeredGlobalBehaviors: false
+    onListeningDisabledGlobalBehaviors: false
+    onListeningEnabledGlobalBehaviors: false
+    onListeningTriggeredGlobalBehaviors: false
+    onVoiceSystemCommandTriggeredGlobalBehaviors: false
+    openAIScript: false
+    screenTextCommandResponses: false
+    screenTextKeywordResponses: false
+    screenTextSYSTEM_VOICE_COMMANDResponses: false
+    screenTextTranscription: false
+    speechContextsObject: false
+    transcripitonText: false
+    transcriptionType: false
+    useCommand: false
+    useKeyword: false
+    useSYSTEM_VOICE_COMMAND: false
+    useSpeechContext: false
+    vmlModule: false
+    voiceMLLanguage: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - vmlModule: !<reference.VoiceMLModule> 00000000-0000-0000-0000-000000000000
+      voiceMLLanguage: ""
+      transcriptionType: ""
+      transcripitonText: false
+      screenTextTranscription: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      useSpeechContext: false
+      speechContextsObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      useKeyword: false
+      keywordsParentObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      keywordText: false
+      screenTextKeywordResponses: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      useCommand: false
+      commandHandler: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      commandText: false
+      screenTextCommandResponses: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      useSYSTEM_VOICE_COMMAND: false
+      SYSTEM_VOICE_COMMANDText: false
+      screenTextSYSTEM_VOICE_COMMANDResponses: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      editBehaviors: false
+      debug: false
+      onListeningEnabledGlobalBehaviors: !<reference.ScriptComponent[]>
+        []
+      onListeningDisabledGlobalBehaviors: !<reference.ScriptComponent[]>
+        []
+      onListeningTriggeredGlobalBehaviors: !<reference.ScriptComponent[]>
+        []
+      onErrorTriggeredGlobalBehaviors: !<reference.ScriptComponent[]>
+        []
+      onFinalTranscriptionTriggeredGlobalBehaviors: !<reference.ScriptComponent[]>
+        []
+      onKeywordTriggeredGlobalBehaviors: !<reference.ScriptComponent[]>
+        []
+      onCommandTriggeredGlobalBehaviors: !<reference.ScriptComponent[]>
+        []
+      onVoiceSystemCommandTriggeredGlobalBehaviors: !<reference.ScriptComponent[]>
+        []
+      openAIScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
