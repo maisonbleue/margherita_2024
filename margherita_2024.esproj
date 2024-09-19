@@ -7,28 +7,27 @@ updateCheckpoint: 48
 sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
 viewConfig:
   simulation:
-    device: No Simulation
-    cameraFov: 66.519997
-    fullFrameAspect: nan
+    device: Spectacles (2024)
+    cameraFov: nan
+    fullFrameAspect: 0.666660
     viewport: Maximized
-    output: Live
+    output: ConnectedLenses
     stereoOutputEye: Center
-    deviceTypeOverride: Unknown
+    deviceTypeOverride: Spectacles
   cameraType: Front
 metaInfo:
   hints:
     []
   tags:
     []
-  lensName: Untitled
+  lensName: margherita_2024
   lensDescriptors:
-    []
+    - EXPERIMENTAL_API
   lensApplicability:
     - Front
     - Back
   lensClientCompatibilities:
-    - Mobile
-    - Web
+    - Spectacles
   iconHash: ""
   videoPreviewHash: ""
   fromTemplateName: Default

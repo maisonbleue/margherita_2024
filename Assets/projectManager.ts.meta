@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/745cbedc-a295-4c0b-8275-2983e52a3f29>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 06a8eb23-430a-4374-9903-94fea2cb33eb
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 06a8eb23-430a-4374-9903-94fea2cb33eb
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 0cc85ada-0f0c-40d3-9e11-f743d15cf17f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/c914dfbb-3f56-40f5-9f8e-8e9680c35dda>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/0cc85ada-0f0c-40d3-9e11-f743d15cf17f>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    openAIApiKey: false
+    refScripts: false
+    rms: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - openAIApiKey: OpenAI
+      rms: !<reference.RemoteServiceModule> 00000000-0000-0000-0000-000000000000
+      refScripts: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input string openAIApiKey
+    - // @input Asset.RemoteServiceModule rms
+    - // @input Component.ScriptComponent refScripts
