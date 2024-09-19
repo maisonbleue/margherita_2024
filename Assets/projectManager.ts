@@ -11,6 +11,13 @@ export class OpenAi extends BaseScriptComponent {
     @input('Component.ScriptComponent')
     vMLLScript: any;
 
+    private messageHistory: Array<{ role: string, content: string }> = [
+        {
+            "role": "system",
+            "content": "You are my dance teacher, I am dancing with you, cheer me up. Nore more than 100 character message."
+        }
+    ];
+
     private req: RemoteServiceHttpRequest;
     private isRequestInProgress: boolean = false;
     private isTextToSpeechInProgress: boolean = false;
@@ -56,26 +63,32 @@ export class OpenAi extends BaseScriptComponent {
             return;
         }
         this.isRequestInProgress = true;
+
+        // Add user message to history
+        this.messageHistory.push({
+            "role": "user",
+            "content": text ? text : "What is the meaning of life?"
+        });
+
         this.req.url = "https://api.openai.com/v1/chat/completions";
         this.req.body = JSON.stringify({
             "model": "gpt-4o-mini",
-            "messages": [
-                {
-                    "role": "system",
-                    "content": "You are a helpful assistant. Answer are short less than 100 characters."
-                },
-                {
-                    "role": "user",
-                    "content": text ? text : "What is the meaning of life?"
-                }
-            ]
+            "messages": this.messageHistory
         });
 
         this.rms.performHttpRequest(this.req, (response) => {
             this.isRequestInProgress = false;
             const parsedResponse = JSON.parse(response.body);
-            print(parsedResponse.choices[0].message.content);
-            this.callTextToSpeech(parsedResponse.choices[0].message.content, () => {
+            const assistantMessage = parsedResponse.choices[0].message.content;
+
+            // Add assistant message to history
+            this.messageHistory.push({
+                "role": "assistant",
+                "content": assistantMessage
+            });
+
+            print(assistantMessage);
+            this.callTextToSpeech(assistantMessage, () => {
                 // Callback to handle any post text-to-speech actions
                 print("Text to speech finished, ready for next request");
             });

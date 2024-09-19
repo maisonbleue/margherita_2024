@@ -1,13 +1,8 @@
 - !<Scene/0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99>
   PackagePath: ""
   objects:
-    - !<own> 8e799d85-72a5-4712-b11c-73cc1e593ef8
     - !<own> 00000000-0000-0065-0000-000000000064
-    - !<own> 0005641c-028d-459a-0000-000000014b4d
-    - !<own> 05ba69cf-6a1c-49f6-9023-565a2a2ad501
-    - !<own> ba665da2-1491-41c3-8187-9f68708baa6f
-    - !<own> acd3266a-b2b7-4e9a-a119-d4432ad565c6
-    - !<own> 9c629181-95b7-4ae2-851e-a93c25b1e487
+    - !<own> b4b0d7d2-f6ab-49c0-a6b8-c26f434b67b1
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       []
@@ -62,122 +57,6 @@
   DepthStencilRenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
   MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
   RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
-- !<SceneObject/0005641c-028d-459a-0000-000000014b4d>
-  PrefabRemaps:
-    []
-  Name: Lighting
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    - !<own> 00056e79-b066-62ca-0000-000000001406
-    - !<own> 0005641c-028d-4630-0000-000000014b56
-  Components:
-    []
-- !<SceneObject/0005641c-028d-4630-0000-000000014b56>
-  PrefabRemaps:
-    []
-  Name: Light
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 40.000000, y: 85.000000, z: 20.000000}
-    rotation: {x: 70.000000, y: 10.000000, z: 150.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 0005641c-028d-463e-0000-000000014b59
-- !<LightSource/0005641c-028d-463e-0000-000000014b59>
-  PrefabRemaps:
-    []
-  Name: Light Source
-  Enabled: true
-  renderLayer: 1835007
-  LightType: Directional
-  Intensity: 1.000000
-  CastShadows: false
-  ShadowDensity: 0.440000
-  ShadowBlurRadius: 4.000000
-  ShadowTextureSize: 512
-  AutoLightSourcePosition: true
-  AutoShadowFrustumSize: true
-  AutoShadowFrustumSizeExtend: 2.000000
-  ShadowFrustumSize: 30.000000
-  ShadowFrustumNearClipPlane: 1.000000
-  ShadowFrustumFarClipPlane: 1000.000000
-  UseEnvMapFromCamera: false
-  EnvMapFromCameraMode: Auto
-  UseEstimation: false
-  EstimationIntensity: 1.000000
-  EstimationSharpness: 1.000000
-  EnvMapExposure: 1.000000
-  EnvMapRotation: 0.000000
-  DiffuseEnvTexture: !<reference> 00000000-0000-0000-0000-000000000000
-  SpecularEnvTexture: !<reference> 00000000-0000-0000-0000-000000000000
-  Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
-  DynamicEnvInputTexture: !<reference> 00000000-0000-0000-0000-000000000000
-  InnerConeAngle: 0.000000
-  OuterConeAngle: 45.000000
-  DecayType: None
-  DecayLimit: false
-  DecayRange: 40.000000
-- !<SceneObject/00056e79-b066-62ca-0000-000000001406>
-  PrefabRemaps:
-    []
-  Name: Envmap
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 65.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 00056e79-b066-62f1-0000-000000001409
-- !<LightSource/00056e79-b066-62f1-0000-000000001409>
-  PrefabRemaps:
-    []
-  Name: Light Source
-  Enabled: true
-  renderLayer: 1835007
-  LightType: EnvMap
-  Intensity: 1.000000
-  CastShadows: false
-  ShadowDensity: 1.000000
-  ShadowBlurRadius: 0.000000
-  ShadowTextureSize: 512
-  AutoLightSourcePosition: false
-  AutoShadowFrustumSize: false
-  AutoShadowFrustumSizeExtend: 2.000000
-  ShadowFrustumSize: 30.000000
-  ShadowFrustumNearClipPlane: 1.000000
-  ShadowFrustumFarClipPlane: 1000.000000
-  UseEnvMapFromCamera: false
-  EnvMapFromCameraMode: Auto
-  UseEstimation: false
-  EstimationIntensity: 1.000000
-  EstimationSharpness: 1.000000
-  EnvMapExposure: 1.000000
-  EnvMapRotation: 0.000000
-  DiffuseEnvTexture: !<reference> 2013a19b-93c1-4f21-b7ea-876a33550c7b
-  SpecularEnvTexture: !<reference> d795fd46-e16b-4cb9-8dfb-4ef227298f7a
-  Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
-  DynamicEnvInputTexture: !<reference> 00000000-0000-0000-0000-000000000000
-  InnerConeAngle: 0.000000
-  OuterConeAngle: 45.000000
-  DecayType: None
-  DecayLimit: false
-  DecayRange: 40.000000
 - !<ScriptComponent/01580fa7-e421-4396-baee-9c197be8c792>
   PrefabRemaps:
     []
@@ -6925,6 +6804,25 @@
   Components:
     - !<own> bfeb3d38-3d04-49be-b428-b82f70cbbc7b
     - !<own> c259c9a9-2ca8-4017-9b14-34c77c92cd0f
+- !<SceneObject/b4b0d7d2-f6ab-49c0-a6b8-c26f434b67b1>
+  PrefabRemaps:
+    []
+  Name: VoiceCommandUI
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8e799d85-72a5-4712-b11c-73cc1e593ef8
+    - !<own> 05ba69cf-6a1c-49f6-9023-565a2a2ad501
+    - !<own> ba665da2-1491-41c3-8187-9f68708baa6f
+    - !<own> acd3266a-b2b7-4e9a-a119-d4432ad565c6
+    - !<own> 9c629181-95b7-4ae2-851e-a93c25b1e487
+  Components:
+    []
 - !<RenderMeshVisual/b50a4364-4d66-4431-a038-c9aadc6d9119>
   PrefabRemaps:
     []
