@@ -1,0 +1,41 @@
+- !<AssetImportMetadata/46162922-9958-4f37-a3a6-6152745f93c5>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 6e470715-ed4d-4078-bf1d-1b60741740e1
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 6e470715-ed4d-4078-bf1d-1b60741740e1
+  PackageType: NotAPackage
+  ImporterSettings: !<AssetImporterSettings/2fe8cc08-44ee-4f6c-8223-0d1d063b9dca>
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 31704915-961f-452a-b2e8-3d32443f395c
+  PackagePolicy: CannotBeUnpacked
+  DependentFiles:
+    []
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/31704915-961f-452a-b2e8-3d32443f395c>
+  Icon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    instantiator: false
+    myPrefab: false
+    myTarget: false
+    randomizeColor: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - instantiator: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      myPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      myTarget: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      randomizeColor: false
+  ScriptTypes:
+    -
+      {}
+  SvgIcon: ""

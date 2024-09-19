@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/537ceae9-0440-4434-8ba4-cfdd790aa7ba>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 768f0286-9238-48d1-8369-56af63c392d4
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 768f0286-9238-48d1-8369-56af63c392d4
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 0e60479f-7c91-4e07-8c1b-486e3b670043
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/b93d859d-265a-4ac3-9822-e195a6a0700b>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/0e60479f-7c91-4e07-8c1b-486e3b670043>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    spinner: false
+    textMappingHintInput: false
+    textMappingHintTimingsInput: false
+    tutorialNotificationInput: false
+    tutorialParametersInput: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - tutorialNotificationInput: !<MappingBased.TutorialInput> 00000000-0000-0000-0000-000000000000
+      textMappingHintInput: !<MappingBased.TextMappingHintInput> 00000000-0000-0000-0000-000000000000
+      spinner: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      textMappingHintTimingsInput: !<MappingBased.TextMappingHintParametersInput> 00000000-0000-0000-0000-000000000000
+      tutorialParametersInput: !<MappingBased.TutorialParametersInput> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input TutorialInput tutorialNotificationInput
+    - // @input TextMappingHintInput textMappingHintInput
+    - // @input SceneObject spinner
+    - // @input TextMappingHintParametersInput textMappingHintTimingsInput
+    - // @input TutorialParametersInput tutorialParametersInput

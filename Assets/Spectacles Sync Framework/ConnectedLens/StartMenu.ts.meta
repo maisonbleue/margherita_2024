@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/9ddbaf56-3b4d-43c5-b845-3541346acfef>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 1e806100-777d-4a60-bd82-a39d345d9920
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 1e806100-777d-4a60-bd82-a39d345d9920
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 5f6512b6-e291-42dd-8a4d-fc82cae45cb5
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/f314b5e4-b946-41a3-a44f-066a99ec400f>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/5f6512b6-e291-42dd-8a4d-fc82cae45cb5>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    enableOnSingleplayerNodes: false
+    multiPlayerButton: false
+    singlePlayerButton: false
+    singlePlayerType: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - singlePlayerButton: !<MappingBased.PinchButton> 00000000-0000-0000-0000-000000000000
+      multiPlayerButton: !<MappingBased.PinchButton> 00000000-0000-0000-0000-000000000000
+      singlePlayerType: manual
+      enableOnSingleplayerNodes: !<reference.SceneObject[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input PinchButton singlePlayerButton
+    - // @input PinchButton multiPlayerButton
+    - '// @input string singlePlayerType = "manual" {"widget":"combobox", "values":[{"label":"Manual", "value":"manual"}, {"label":"Mocked Online (Automatic)", "value":"mocked_online"}]}'
+    - "// @input SceneObject[] enableOnSingleplayerNodes"

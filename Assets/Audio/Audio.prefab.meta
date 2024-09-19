@@ -1,0 +1,58 @@
+- !<AssetImportMetadata/5a345d40-9135-4367-b0b3-03bda0ac98e0>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 72010e5f-d8d5-403e-ac0b-659f880d2e83
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 72010e5f-d8d5-403e-ac0b-659f880d2e83
+  PackageType: NotAPackage
+  ImporterSettings: !<AssetImporterSettings/3967fe4a-0c27-4e5a-9d27-83d5a5e93e81>
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 08cac392-f9f3-48d3-b48d-2ab5cff5dc01
+  PackagePolicy: CannotBeUnpacked
+  DependentFiles:
+    []
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefab/061ef6f2-c2ee-4942-a1d5-ed2945986e16>
+  PackagePath: ""
+  objects:
+    - !<own> 7aa9a572-55c9-4f35-b80f-51e43d81ca99
+  LazyLoading: false
+  RetainAssets: true
+- !<ObjectPrefabAssetData/08cac392-f9f3-48d3-b48d-2ab5cff5dc01>
+  SourceRemaps:
+    - 1364e932-c785-44fc-8b63-debab044a2a9: 7ab83641-4431-4d62-9fe0-27408d19e712
+    - 5b5f141e-5aae-47d9-906c-be66d927b528: 7aa9a572-55c9-4f35-b80f-51e43d81ca99
+  SourceState: !<own> 061ef6f2-c2ee-4942-a1d5-ed2945986e16
+- !<SceneObject/7aa9a572-55c9-4f35-b80f-51e43d81ca99>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  Layer: 0
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7ab83641-4431-4d62-9fe0-27408d19e712
+  Layers: 1
+- !<AudioComponent/7ab83641-4431-4d62-9fe0-27408d19e712>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> f50fe1fd-e5fe-418f-ab92-77edb6a82ff9
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Inverse
+  MinDistance: 0.000000
+  MaxDistance: 0.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false

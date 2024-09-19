@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/49e70bb5-30cc-43f1-9641-32941e1e77f4>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> d6b1a12a-7fdb-483a-a8bc-fc31b83cd4eb
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> d6b1a12a-7fdb-483a-a8bc-fc31b83cd4eb
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> 2f74e3f3-81c0-40e6-a101-c12c16d966b0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/a9b6633b-39bd-4315-801f-b859672e2c31>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/2f74e3f3-81c0-40e6-a101-c12c16d966b0>
+  SourceRemaps:
+    - 53c4c125-cf90-45ab-ad97-cfc7e6385af1: 85ad90e6-cba1-4c1e-8f3d-fa3c4d9dab0d
+    - 88ea3c31-f165-404f-88ce-624744239c8f: 8f9658bd-9bb0-4e73-9a98-770e50f0db15
+  SourceState: !<own> c4cfd040-d459-484d-9fb6-893f28dbb465
+- !<VFXComponent/85ad90e6-cba1-4c1e-8f3d-fa3c4d9dab0d>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> e9d3605f-5ea6-410c-a143-6c3fbd7c0dd3
+- !<SceneObject/8f9658bd-9bb0-4e73-9a98-770e50f0db15>
+  PrefabRemaps:
+    []
+  Name: HandEmitter
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 9.483945, y: 0.000000, z: -0.000000}
+    rotation: {x: -13.541103, y: -22.763075, z: 7.946494}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 85ad90e6-cba1-4c1e-8f3d-fa3c4d9dab0d
+- !<ObjectPrefab/c4cfd040-d459-484d-9fb6-893f28dbb465>
+  PackagePath: ""
+  objects:
+    - !<own> 8f9658bd-9bb0-4e73-9a98-770e50f0db15
+  LazyLoading: false
+  RetainAssets: true

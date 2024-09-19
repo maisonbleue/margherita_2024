@@ -1,0 +1,107 @@
+- !<Material/2514d83d-52bc-4b5c-898a-5c0bc75171bf>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 4fd074f5-2172-4da1-a76e-ac79a1c3d062
+- !<PassInfo/4fd074f5-2172-4da1-a76e-ac79a1c3d062>
+  DepthWrite: false
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: Screen
+  Properties:
+    Port_Input0_N037:
+      typeIdx: 1
+      value: 0.750000
+    Port_Input1_N037:
+      typeIdx: 1
+      value: 0.650000
+    Port_RangeMaxA_N011:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N086:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxB_N011:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxB_N086:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMinA_N011:
+      typeIdx: 1
+      value: 0.100000
+    Port_RangeMinA_N086:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinB_N011:
+      typeIdx: 1
+      value: 0.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    Tweak_N0:
+      typeIdx: 9
+      value:
+        id: 3661c79e-9212-42c4-b47f-59c6ebb2a381
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: true
+        type: Texture2D
+    Tweak_N0BorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Tweak_N0Dims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Tweak_N0Transform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    Tweak_N0UvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Tweak_N87:
+      typeIdx: 1
+      value: 0.800000
+    Tweak_N9:
+      typeIdx: 9
+      value:
+        id: 5b0933ba-36a3-4b2a-afc2-2a9b51198448
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: true
+        type: Texture2D
+    Tweak_N9BorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Tweak_N9Dims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Tweak_N9Transform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    Tweak_N9UvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  Pass: !<reference> e4a3b10a-8d14-4ab9-81b1-7b3bcf3ad263

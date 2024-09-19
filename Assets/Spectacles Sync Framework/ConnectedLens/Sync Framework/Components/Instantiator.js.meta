@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/7e988451-ed4d-4eb1-9571-a81610e8d335>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 446da29f-809f-4a5e-861f-265c5321a398
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 446da29f-809f-4a5e-861f-265c5321a398
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> a721fe21-dbe6-4e8b-ac2f-40cc8af1b7f3
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/9aa0d26d-193e-4c59-bb5b-2e4a76aef061>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/a721fe21-dbe6-4e8b-ac2f-40cc8af1b7f3>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    autoInstantiate: false
+    autoInstantiateOwnership: false
+    autoInstantiatePersistence: false
+    autoInstantiatePrefabs: false
+    prefabs: false
+    spawnAsChildren: false
+    spawnUnderParent: false
+    spawnerOwnsObject: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - prefabs: !<reference.ObjectPrefab[]>
+        []
+      spawnerOwnsObject: false
+      spawnAsChildren: false
+      spawnUnderParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      autoInstantiate: false
+      autoInstantiatePrefabs: !<reference.ObjectPrefab[]>
+        []
+      autoInstantiatePersistence: Session
+      autoInstantiateOwnership: Unowned
+  ScriptTypes:
+    -
+      {}

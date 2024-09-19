@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/d7d88871-0946-4353-9328-ce661c0d5cdb>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 6ff4b53b-7fea-492f-9b8a-600a78dd80ad
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 6ff4b53b-7fea-492f-9b8a-600a78dd80ad
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> df767c18-3aa6-4287-84d1-387eaa8969a7
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/06bfeb58-cd84-4b30-8ee8-82a4a4e2af73>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/df767c18-3aa6-4287-84d1-387eaa8969a7>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    hintText: false
+    hintTitle: false
+    root: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - root: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hintTitle: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      hintText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject root
+    - // @input Component.Text hintTitle
+    - // @input Component.Text hintText

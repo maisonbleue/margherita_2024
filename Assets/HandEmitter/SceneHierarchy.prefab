@@ -1,0 +1,34 @@
+- !<ObjectPrefab/d6b1a12a-7fdb-483a-a8bc-fc31b83cd4eb>
+  PackagePath: ""
+  objects:
+    - !<own> 88ea3c31-f165-404f-88ce-624744239c8f
+  LazyLoading: false
+  RetainAssets: true
+- !<VFXComponent/53c4c125-cf90-45ab-ad97-cfc7e6385af1>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> e9d3605f-5ea6-410c-a143-6c3fbd7c0dd3
+- !<SceneObject/88ea3c31-f165-404f-88ce-624744239c8f>
+  PrefabRemaps:
+    []
+  Name: HandEmitter
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 9.483945, y: 0.000000, z: -0.000000}
+    rotation: {x: -13.541103, y: -22.763075, z: 7.946494}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 53c4c125-cf90-45ab-ad97-cfc7e6385af1

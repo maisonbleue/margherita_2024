@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/abf7239f-d557-470f-bc69-28c3ee53c3a6>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 14673cb5-7f1b-429f-a3fb-5af501303631
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 14673cb5-7f1b-429f-a3fb-5af501303631
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 55c9920b-a11f-4942-b28b-51f129e5f266
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/7e9ada9e-452f-4c0e-9f94-4d9041d95287>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/55c9920b-a11f-4942-b28b-51f129e5f266>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    customNetworkId: false
+    interpolationTarget: false
+    networkIdType: false
+    persistence: false
+    positionSync: false
+    rotationSync: false
+    scaleSync: false
+    sendsPerSecondLimit: false
+    useSmoothing: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - networkIdType: objectId
+      customNetworkId: enter_unique_id
+      positionSync: local
+      rotationSync: local
+      scaleSync: none
+      persistence: Session
+      sendsPerSecondLimit: !<float> 10.000000
+      useSmoothing: false
+      interpolationTarget: -0.250000
+  ScriptTypes:
+    -
+      {}

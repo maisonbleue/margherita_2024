@@ -1,0 +1,38 @@
+- !<ObjectPrefab/a29f8e19-5df6-4a31-9db8-baea7f826eb5>
+  PackagePath: ""
+  objects:
+    - !<own> 5e1d6d27-a33d-49ee-9b50-617ec948a331
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/5e1d6d27-a33d-49ee-9b50-617ec948a331>
+  PrefabRemaps:
+    []
+  Name: Audio 1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e3e438be-cec5-4302-8e75-ac82518e48a3
+- !<AudioComponent/e3e438be-cec5-4302-8e75-ac82518e48a3>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 614c170f-21d9-4de5-a694-68bc4cf69fe1
+  EnableAutoplayLoop: true
+  Volume: 0.440000
+  EnableMixToSnap: true
+  RecordVolume: 0.460000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false

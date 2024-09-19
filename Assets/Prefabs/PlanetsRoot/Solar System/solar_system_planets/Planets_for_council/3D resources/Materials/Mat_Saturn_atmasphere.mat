@@ -1,0 +1,89 @@
+- !<Material/5da1f9e4-17e1-4288-afd0-bf3236eb3cba>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 41652736-15ed-4eeb-ba68-17bfc58632c5
+- !<PassInfo/41652736-15ed-4eeb-ba68-17bfc58632c5>
+  DepthWrite: false
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Front
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: Screen
+  Properties:
+    Port_Exponent_N009:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input0_N084:
+      typeIdx: 1
+      value: 0.100000
+    Port_Input0_N093:
+      typeIdx: 1
+      value: 0.050000
+    Port_Input1_N084:
+      typeIdx: 1
+      value: -0.500000
+    Port_Input1_N093:
+      typeIdx: 1
+      value: -0.050000
+    Port_Intensity_N009:
+      typeIdx: 1
+      value: 1.000000
+    Port_Normal_N009:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    Port_Position1_N010:
+      typeIdx: 1
+      value: 0.230000
+    Port_Position2_N010:
+      typeIdx: 1
+      value: 0.700000
+    Port_Position3_N010:
+      typeIdx: 1
+      value: 0.790000
+    Port_Position4_N010:
+      typeIdx: 1
+      value: 0.900000
+    Port_RangeMaxA_N086:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxB_N086:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMinA_N086:
+      typeIdx: 1
+      value: 0.000000
+    Port_Value0_N010:
+      typeIdx: 5
+      value: {x: 0.211765, y: 0.188235, z: 0.094118, w: 1.000000}
+    Port_Value1_N010:
+      typeIdx: 5
+      value: {x: 0.686275, y: 0.533333, z: 0.321569, w: 1.000000}
+    Port_Value2_N010:
+      typeIdx: 5
+      value: {x: 0.756863, y: 0.478431, z: 0.239216, w: 1.000000}
+    Port_Value3_N010:
+      typeIdx: 5
+      value: {x: 0.227451, y: 0.141176, z: 0.062745, w: 1.000000}
+    Port_Value4_N010:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    Port_Value5_N010:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    Tweak_N15:
+      typeIdx: 1
+      value: 0.480000
+    Tweak_N87:
+      typeIdx: 1
+      value: 0.800000
+  Pass: !<reference> fcb2b3fc-b779-4f0e-a8d0-4c4c5dfa6f41

@@ -1,0 +1,143 @@
+- !<Material/ece335bc-cbf5-4a91-869b-d25ecb14520d>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> c7255569-b428-4c94-9bf8-849a6891fbec
+- !<PassInfo/c7255569-b428-4c94-9bf8-849a6891fbec>
+  DepthWrite: false
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: Screen
+  Properties:
+    Port_Center_N099:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    Port_Import_N100:
+      typeIdx: 3
+      value: {x: 0.800000, y: 1.000000}
+    Port_Input0_N084:
+      typeIdx: 1
+      value: 0.100000
+    Port_Input0_N093:
+      typeIdx: 1
+      value: 0.050000
+    Port_Input0_N120:
+      typeIdx: 1
+      value: 0.490000
+    Port_Input1_N006:
+      typeIdx: 1
+      value: 2.000000
+    Port_Input1_N076:
+      typeIdx: 1
+      value: 0.010000
+    Port_Input1_N084:
+      typeIdx: 1
+      value: -0.500000
+    Port_Input1_N093:
+      typeIdx: 1
+      value: -0.050000
+    Port_Input1_N118:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    Port_Input1_N120:
+      typeIdx: 1
+      value: 0.750000
+    Port_Position1_N121:
+      typeIdx: 1
+      value: 0.190000
+    Port_Position2_N121:
+      typeIdx: 1
+      value: 0.390000
+    Port_RangeMaxA_N086:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N114:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxB_N086:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxB_N114:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMinA_N086:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinA_N114:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinB_N114:
+      typeIdx: 1
+      value: -1.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    Tweak_N0:
+      typeIdx: 5
+      value: {x: 0.090196, y: 0.101961, z: 0.105882, w: 1.000000}
+    Tweak_N1:
+      typeIdx: 5
+      value: {x: 0.290196, y: 0.345098, z: 0.400000, w: 1.000000}
+    Tweak_N122:
+      typeIdx: 1
+      value: 0.840000
+    Tweak_N13:
+      typeIdx: 1
+      value: 0.590000
+    Tweak_N14:
+      typeIdx: 1
+      value: 0.015000
+    Tweak_N2:
+      typeIdx: 5
+      value: {x: 0.333333, y: 0.380392, z: 0.450980, w: 1.000000}
+    Tweak_N3:
+      typeIdx: 5
+      value: {x: 0.494118, y: 0.537255, z: 0.584314, w: 1.000000}
+    Tweak_N7:
+      typeIdx: 1
+      value: 0.075000
+    Tweak_N86:
+      typeIdx: 9
+      value:
+        id: dcf5b50b-c1f8-4274-96a5-8f687f6d74d9
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    Tweak_N86BorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Tweak_N86Dims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Tweak_N86Transform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    Tweak_N86UvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Tweak_N87:
+      typeIdx: 1
+      value: 0.750000
+    overrideTimeElapsed:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeEnabled:
+      typeIdx: 0
+      value: 0
+  Pass: !<reference> 3bce2bbe-eb78-4484-b662-090f52ab9904

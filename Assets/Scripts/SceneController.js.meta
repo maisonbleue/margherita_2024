@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/1618ee81-8523-415f-8f12-76e1db78a93f>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 3b753b2c-592f-4a13-b5dc-68ca71e95c06
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 3b753b2c-592f-4a13-b5dc-68ca71e95c06
+  PackageType: NotAPackage
+  ImporterSettings: !<AssetImporterSettings/a7b1b508-5fac-4744-b741-e66c3512db15>
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 4da028aa-5856-414a-ba9b-1b3f8a66ecae
+  PackagePolicy: CannotBeUnpacked
+  DependentFiles:
+    []
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/4da028aa-5856-414a-ba9b-1b3f8a66ecae>
+  Icon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    bgAudio: false
+    cameraObj: false
+    cursorVisual: false
+    interactObj: false
+    pointCloudLight: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - interactObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cameraObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      bgAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      pointCloudLight: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  SvgIcon: ""

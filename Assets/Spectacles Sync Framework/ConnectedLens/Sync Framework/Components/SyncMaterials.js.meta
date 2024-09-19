@@ -1,0 +1,43 @@
+- !<AssetImportMetadata/33d7c458-7c1e-4a6b-afd4-4d971800e59f>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> fb09b4d4-5494-410f-8f8f-c36c3e771823
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> fb09b4d4-5494-410f-8f8f-c36c3e771823
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 4c38bddc-ef83-43f3-978d-7d1bd379bc1a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/3070500b-e6b3-43d1-8705-fb83a31d6610>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/4c38bddc-ef83-43f3-978d-7d1bd379bc1a>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    autoClone: false
+    customNetworkId: false
+    mainMaterial: false
+    networkIdType: false
+    propertyNames: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - networkIdType: objectId
+      customNetworkId: enter_unique_id
+      autoClone: true
+      mainMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      propertyNames: !<string[]>
+        []
+  ScriptTypes:
+    -
+      {}

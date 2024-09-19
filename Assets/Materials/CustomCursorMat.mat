@@ -1,0 +1,100 @@
+- !<Material/5b5aca8d-4e1e-41b5-aa80-26d97dbfbc5b>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> d249a41c-cf7a-4670-a7f8-2d2a4831bf4b
+- !<PassInfo/d249a41c-cf7a-4670-a7f8-2d2a4831bf4b>
+  DepthWrite: false
+  DepthTest: true
+  DepthFunction: Always
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    Port_Center_N002:
+      typeIdx: 3
+      value: {x: 0.000000, y: 0.000000}
+    Port_Input0_N010:
+      typeIdx: 1
+      value: 0.700000
+    Port_Input0_N024:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input1_N003:
+      typeIdx: 3
+      value: {x: 0.000000, y: 0.000000}
+    Port_Input1_N005:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N006:
+      typeIdx: 1
+      value: 0.500000
+    Port_Input1_N007:
+      typeIdx: 1
+      value: 0.400000
+    Port_Input1_N008:
+      typeIdx: 1
+      value: 0.300000
+    Port_Input1_N010:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input1_N022:
+      typeIdx: 1
+      value: 2.000000
+    Port_Input1_N024:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMaxA_N001:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxB_N001:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMinA_N001:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinB_N001:
+      typeIdx: 1
+      value: -1.000000
+    Port_Scale_N002:
+      typeIdx: 3
+      value: {x: 2.000000, y: 2.000000}
+    Port_Value1_N011:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    Port_Value1_N013:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_Value1_N018:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    Port_Value1_N023:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_Value3_N011:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    maxAlpha:
+      typeIdx: 1
+      value: 1.000000
+    outlineAlpha:
+      typeIdx: 1
+      value: 1.000000
+    outlineEnabled:
+      typeIdx: 2
+      value: true
+  Pass: !<reference> b7035b4e-38ae-4b64-9e49-aa0d18a47e51
+  RTCaster: false
+  RTReceiver: false

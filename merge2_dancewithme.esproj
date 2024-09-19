@@ -1,0 +1,36 @@
+studioVersion:
+  major: 5
+  minor: 1
+  patch: 0
+  build: 24091700
+updateCheckpoint: 48
+sceneId: 1e4cae11-cf66-49fa-b479-1f6bf46388cc
+viewConfig:
+  simulation:
+    device: Spectacles (2024)
+    cameraFov: nan
+    fullFrameAspect: 0.666660
+    viewport: Maximized
+    output: Live
+    stereoOutputEye: Center
+    deviceTypeOverride: Spectacles
+  cameraType: Front
+metaInfo:
+  hints:
+    []
+  tags:
+    []
+  lensName: DanceWithMe
+  lensDescriptors:
+    - EXPERIMENTAL_API
+  lensApplicability:
+    - Front
+    - Back
+  lensClientCompatibilities:
+    - Spectacles
+  iconHash: 1c17f15eec98a7f15e341cc17cb83fce
+  videoPreviewHash: ""
+  fromTemplateName: Empty Project
+  fromTemplateUrl: Lens Studio Fiji 5.0.5.24011109
+  activationCamera: Rear
+  sourceMapEnabled: false

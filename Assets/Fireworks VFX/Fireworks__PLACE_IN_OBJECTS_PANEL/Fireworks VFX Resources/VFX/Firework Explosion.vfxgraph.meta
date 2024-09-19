@@ -1,0 +1,41 @@
+- !<AssetImportMetadata/1de8c780-bc30-4632-8660-bc9efb701dcb>
+  ImportedAssetIds:
+    VFXGraph: !<reference> c03224ee-1b3e-4dd6-9013-f38bc86d1032
+  ImporterName: VFXAssetImporter
+  PrimaryAsset: !<reference> c03224ee-1b3e-4dd6-9013-f38bc86d1032
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    VFXGraph: !<own> f4b10fb1-1b15-427d-8912-1a3db505a779
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/04e40868-b457-4854-b1f5-7fbb4ae11644>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<VFXAssetData/f4b10fb1-1b15-427d-8912-1a3db505a779>
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  SystemPassProperties:
+    39: !<VFXSystemPassProperties/5bd769fb-f637-40d3-b570-bd08683c4eb4>
+      FeedbackProperties:
+        {}
+      SimulateProperties:
+        trailDensity:
+          typeIdx: 1
+          value: 65.000000
+        lifespan:
+          typeIdx: 1
+          value: 7.000000
+        explosionForce:
+          typeIdx: 1
+          value: 600.000000
+        spawnTime:
+          typeIdx: 1
+          value: 1.000000
+      RenderProperties:
+        {}
+      FeedbackDefines:
+        []
+      SimulateDefines:
+        []
+      RenderDefines:
+        []

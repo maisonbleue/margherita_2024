@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/02aae985-4047-4b0f-9e0c-bbaff64beb67>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> e7957afb-7718-41e9-884d-c4ffdf8e8cb8
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> e7957afb-7718-41e9-884d-c4ffdf8e8cb8
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 8a45449a-1f84-4e41-b174-b222a2592350
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/971a606c-9ea5-4058-aff2-b2c8fc63c7d2>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/8a45449a-1f84-4e41-b174-b222a2592350>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    cursorMaterial: false
+    interactorCursor: false
+    myCursor: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - interactorCursor: !<MappingBased.InteractorCursor> 00000000-0000-0000-0000-000000000000
+      myCursor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cursorMaterial: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input InteractorCursor interactorCursor
+    - // @input SceneObject myCursor
+    - // @input Component.RenderMeshVisual cursorMaterial

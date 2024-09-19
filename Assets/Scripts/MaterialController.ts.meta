@@ -1,0 +1,40 @@
+- !<AssetImportMetadata/6ae22d2b-14a6-402d-9dd4-211d4d152cf4>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> c36bf727-6273-4d07-871b-f166bff69a0a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> c36bf727-6273-4d07-871b-f166bff69a0a
+  PackageType: NotAPackage
+  ImporterSettings: !<AssetImporterSettings/c6a4fa20-c985-4b54-a3bf-c04668bba15f>
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> b3518122-344d-40fa-9398-a2b666ae5640
+  PackagePolicy: CannotBeUnpacked
+  DependentFiles:
+    []
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/b3518122-344d-40fa-9398-a2b666ae5640>
+  InputLines:
+    - // @input Component.MaterialMeshVisual materialMeshVisual
+    - // @input Asset.Material outlintMat
+  Icon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    materialMeshVisual: false
+    outlintMat: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - materialMeshVisual: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      outlintMat: !<reference.Material> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  SvgIcon: ""

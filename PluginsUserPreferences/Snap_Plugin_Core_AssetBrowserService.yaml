@@ -1,5 +1,7 @@
 ExternalSources:
   type: "std::map<Es::Uuid, Es::Path>"
   value:
-    []
+    - 37247303-73ad-425b-8347-e273a9e03186: /Users/saraorfali/Desktop/triangle.fbx
+    - 55657b33-b731-4a63-a3d4-139e9ee4af92: /Users/saraorfali/Downloads/HandClapDetect.js
+    - ad7f8ac6-93ce-47c8-92c5-dc8bc060af19: /Users/vincenttrastour/Downloads/dance_with_me_02.webp
   options: 4

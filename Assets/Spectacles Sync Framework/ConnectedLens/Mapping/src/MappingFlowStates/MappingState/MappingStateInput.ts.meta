@@ -1,0 +1,51 @@
+- !<AssetImportMetadata/0e145107-aebb-4aaa-8505-6ac8f17432eb>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 082eb569-e333-4ca5-bfc1-9532790193f8
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 082eb569-e333-4ca5-bfc1-9532790193f8
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 9b9b4b18-4831-4048-a57a-e7b950475767
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/208e1759-6525-48e6-9756-f549758f1dc1>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/9b9b4b18-4831-4048-a57a-e7b950475767>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    mappingProgressInput: false
+    progressBarParametersInput: false
+    textMappingHintInput: false
+    textMappingHintTimingsInput: false
+    tutorialNotificationInput: false
+    tutorialParametersInput: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - tutorialNotificationInput: !<MappingBased.TutorialInput> 00000000-0000-0000-0000-000000000000
+      mappingProgressInput: !<MappingBased.ProgressBarInput> 00000000-0000-0000-0000-000000000000
+      progressBarParametersInput: !<MappingBased.ProgressBarParametersInput> 00000000-0000-0000-0000-000000000000
+      textMappingHintInput: !<MappingBased.TextMappingHintInput> 00000000-0000-0000-0000-000000000000
+      textMappingHintTimingsInput: !<MappingBased.TextMappingHintParametersInput> 00000000-0000-0000-0000-000000000000
+      tutorialParametersInput: !<MappingBased.TutorialParametersInput> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input TutorialInput tutorialNotificationInput
+    - // @input ProgressBarInput mappingProgressInput
+    - // @input ProgressBarParametersInput progressBarParametersInput
+    - // @input TextMappingHintInput textMappingHintInput
+    - // @input TextMappingHintParametersInput textMappingHintTimingsInput
+    - // @input TutorialParametersInput tutorialParametersInput

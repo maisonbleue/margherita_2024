@@ -1,0 +1,347 @@
+- !<ObjectPrefab/520a4124-2970-4e33-81af-a110405f13b6>
+  PackagePath: ""
+  objects:
+    - !<own> e5c37b8b-e2ba-414f-9fbc-ce15a4fcb364
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/15a3e56f-22c6-424d-b741-66c900a95282>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 50
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5b5aca8d-4e1e-41b5-aa80-26d97dbfbc5b
+  Mesh: !<reference> 30236ec2-a183-4ab8-b7cb-eb5aca3101e1
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/162aedf1-f68e-4cbf-9900-6a78ae6b872d>
+  PrefabRemaps:
+    []
+  Name: SyncMaterials
+  Enabled: true
+  ScriptAsset: !<reference> fb09b4d4-5494-410f-8f8f-c36c3e771823
+  ScriptInputsDefault:
+    networkIdType: true
+    customNetworkId: true
+    autoClone: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      networkIdType: objectId
+      customNetworkId: enter_unique_id
+      autoClone: true
+      mainMaterial: !<reference.Material> 5b5aca8d-4e1e-41b5-aa80-26d97dbfbc5b
+      propertyNames: !<string[]>
+        - baseColor
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/3b214185-fe78-4906-a98c-aa255fab0132>
+  PrefabRemaps:
+    []
+  Name: SyncTransform
+  Enabled: true
+  ScriptAsset: !<reference> 14673cb5-7f1b-429f-a3fb-5af501303631
+  ScriptInputsDefault:
+    networkIdType: true
+    customNetworkId: true
+    scaleSync: true
+    persistence: true
+    sendsPerSecondLimit: true
+    interpolationTarget: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      networkIdType: objectId
+      customNetworkId: enter_unique_id
+      positionSync: location
+      rotationSync: location
+      scaleSync: none
+      persistence: Session
+      sendsPerSecondLimit: !<float> 10.000000
+      useSmoothing: true
+      interpolationTarget: -0.250000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/3f7ad804-fda8-4e27-ace7-9a0884e1e862>
+  PrefabRemaps:
+    []
+  Name: RightHandInteractorCursor
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4e43278c-63e6-4c57-b590-770ea8337034
+    - !<own> 852dcb03-e019-49f7-8087-4b9e5eb9f603
+    - !<own> 60408ca5-f41d-4464-8d51-09bc58387db9
+    - !<own> a8482269-0d08-4800-969e-74723b39d1c1
+- !<RenderMeshVisual/4e43278c-63e6-4c57-b590-770ea8337034>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 50
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5b5aca8d-4e1e-41b5-aa80-26d97dbfbc5b
+  Mesh: !<reference> 30236ec2-a183-4ab8-b7cb-eb5aca3101e1
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/60408ca5-f41d-4464-8d51-09bc58387db9>
+  PrefabRemaps:
+    []
+  Name: SyncMaterials
+  Enabled: true
+  ScriptAsset: !<reference> fb09b4d4-5494-410f-8f8f-c36c3e771823
+  ScriptInputsDefault:
+    networkIdType: true
+    customNetworkId: true
+    autoClone: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      networkIdType: objectId
+      customNetworkId: enter_unique_id
+      autoClone: true
+      mainMaterial: !<reference.Material> 5b5aca8d-4e1e-41b5-aa80-26d97dbfbc5b
+      propertyNames: !<string[]>
+        - baseColor
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/852dcb03-e019-49f7-8087-4b9e5eb9f603>
+  PrefabRemaps:
+    []
+  Name: SyncTransform
+  Enabled: true
+  ScriptAsset: !<reference> 14673cb5-7f1b-429f-a3fb-5af501303631
+  ScriptInputsDefault:
+    networkIdType: true
+    customNetworkId: true
+    scaleSync: true
+    persistence: true
+    sendsPerSecondLimit: true
+    interpolationTarget: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      networkIdType: objectId
+      customNetworkId: enter_unique_id
+      positionSync: location
+      rotationSync: location
+      scaleSync: none
+      persistence: Session
+      sendsPerSecondLimit: !<float> 10.000000
+      useSmoothing: true
+      interpolationTarget: -0.250000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/a8482269-0d08-4800-969e-74723b39d1c1>
+  PrefabRemaps:
+    []
+  Name: CustomSyncCursorController
+  Enabled: true
+  ScriptAsset: !<reference> e7957afb-7718-41e9-884d-c4ffdf8e8cb8
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      interactorCursor: !<MappingBased.InteractorCursor> d4c99e0e-975d-4d60-8e0d-ca7376515f57
+      myCursor: !<reference.SceneObject> 3f7ad804-fda8-4e27-ace7-9a0884e1e862
+      cursorMaterial: !<reference.RenderMeshVisual> 4e43278c-63e6-4c57-b590-770ea8337034
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/a8aa4e48-ba2d-43dd-978e-bcd9babf4261>
+  PrefabRemaps:
+    []
+  Name: CustomSyncCursorController
+  Enabled: true
+  ScriptAsset: !<reference> e7957afb-7718-41e9-884d-c4ffdf8e8cb8
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      interactorCursor: !<MappingBased.InteractorCursor> f247ce43-2376-431b-acb0-a28f49a2b17c
+      myCursor: !<reference.SceneObject> fe281c2b-88d5-4c9d-ac38-4e14af0a3932
+      cursorMaterial: !<reference.RenderMeshVisual> 15a3e56f-22c6-424d-b741-66c900a95282
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/b4197153-1bcd-4fc9-8121-99dd897197a1>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 50
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5b5aca8d-4e1e-41b5-aa80-26d97dbfbc5b
+  Mesh: !<reference> 30236ec2-a183-4ab8-b7cb-eb5aca3101e1
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/c34133ab-9a39-4fda-8223-68e8494d6939>
+  PrefabRemaps:
+    []
+  Name: CustomSyncCursorController
+  Enabled: true
+  ScriptAsset: !<reference> e7957afb-7718-41e9-884d-c4ffdf8e8cb8
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      interactorCursor: !<MappingBased.InteractorCursor> 3b4ff6ca-a24c-4658-9a26-fde128ce2978
+      myCursor: !<reference.SceneObject> da9c1fa6-9daf-4ebd-8b50-9db058ab13de
+      cursorMaterial: !<reference.RenderMeshVisual> b4197153-1bcd-4fc9-8121-99dd897197a1
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/da9c1fa6-9daf-4ebd-8b50-9db058ab13de>
+  PrefabRemaps:
+    []
+  Name: MobileInteractorCursor
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b4197153-1bcd-4fc9-8121-99dd897197a1
+    - !<own> eb2e20e1-d0b2-4123-a15a-29612f21d56d
+    - !<own> e3b6426e-d32d-4773-838f-e44d015ec44d
+    - !<own> c34133ab-9a39-4fda-8223-68e8494d6939
+- !<ScriptComponent/e3b6426e-d32d-4773-838f-e44d015ec44d>
+  PrefabRemaps:
+    []
+  Name: SyncMaterials
+  Enabled: true
+  ScriptAsset: !<reference> fb09b4d4-5494-410f-8f8f-c36c3e771823
+  ScriptInputsDefault:
+    networkIdType: true
+    customNetworkId: true
+    autoClone: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      networkIdType: objectId
+      customNetworkId: enter_unique_id
+      autoClone: true
+      mainMaterial: !<reference.Material> 5b5aca8d-4e1e-41b5-aa80-26d97dbfbc5b
+      propertyNames: !<string[]>
+        - baseColor
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/e5c37b8b-e2ba-414f-9fbc-ce15a4fcb364>
+  PrefabRemaps:
+    []
+  Name: SyncCursor
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> fe281c2b-88d5-4c9d-ac38-4e14af0a3932
+    - !<own> 3f7ad804-fda8-4e27-ace7-9a0884e1e862
+    - !<own> da9c1fa6-9daf-4ebd-8b50-9db058ab13de
+  Components:
+    []
+- !<ScriptComponent/eb2e20e1-d0b2-4123-a15a-29612f21d56d>
+  PrefabRemaps:
+    []
+  Name: SyncTransform
+  Enabled: true
+  ScriptAsset: !<reference> 14673cb5-7f1b-429f-a3fb-5af501303631
+  ScriptInputsDefault:
+    networkIdType: true
+    customNetworkId: true
+    scaleSync: true
+    persistence: true
+    sendsPerSecondLimit: true
+    interpolationTarget: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      networkIdType: objectId
+      customNetworkId: enter_unique_id
+      positionSync: location
+      rotationSync: location
+      scaleSync: none
+      persistence: Session
+      sendsPerSecondLimit: !<float> 10.000000
+      useSmoothing: true
+      interpolationTarget: -0.250000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/fe281c2b-88d5-4c9d-ac38-4e14af0a3932>
+  PrefabRemaps:
+    []
+  Name: MouseInteractorCursor
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 15a3e56f-22c6-424d-b741-66c900a95282
+    - !<own> 3b214185-fe78-4906-a98c-aa255fab0132
+    - !<own> 162aedf1-f68e-4cbf-9900-6a78ae6b872d
+    - !<own> a8aa4e48-ba2d-43dd-978e-bcd9babf4261

@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/376b2e2a-1ff7-4e25-98a6-0465506cd44d>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 94679ef5-455b-4887-9b04-f02e10aa514a
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 94679ef5-455b-4887-9b04-f02e10aa514a
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 0d514be6-6451-4529-a5ba-e66ebae2c791
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/b91f1474-fc94-4772-8c8c-fb778f2220b4>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/0d514be6-6451-4529-a5ba-e66ebae2c791>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    connectedLensModule: false
+    debugLogging: false
+    forceOffline: false
+    isColocated: false
+    landmarksVisual3d: false
+    locatedAtComponent: false
+    locationCloudStorageModule: false
+    skipUiInStudio: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - connectedLensModule: !<reference.ConnectedLensModule> 00000000-0000-0000-0000-000000000000
+      locationCloudStorageModule: !<reference.LocationCloudStorageModule> 00000000-0000-0000-0000-000000000000
+      skipUiInStudio: false
+      isColocated: false
+      locatedAtComponent: !<reference.LocatedAtComponent> 00000000-0000-0000-0000-000000000000
+      landmarksVisual3d: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      debugLogging: false
+      forceOffline: false
+  ScriptTypes:
+    -
+      {}
